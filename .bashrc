@@ -149,7 +149,7 @@ export e="/mnt/e/"
 export huan="/mnt/f/OneDrive - VNU-HCMUS/Huan/"
 export desk="/mnt/c/Users/nguye/OneDrive/Desktop/"
 export blog="/mnt/e/source_code_blog/"
-export uni="/mnt/f/OneDrive - VNU-HCMUS/Huan/University/Third Year/"
+export uni="/mnt/f/OneDrive - VNU-HCMUS/Huan/University/Fourth Year/"
 export music="/mnt/f/OneDrive - VNU-HCMUS/Huan/Art and Music/MP3 Songs/"
 
 # << alias for directory by Huan
@@ -227,3 +227,6 @@ export SCM_CHECK=true
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+# by Huan: fix cd <tab> problem: https://stackoverflow.com/questions/40429507/unix-bash-cd-command-and-then-tab-shows-both-directories-and-files
+complete -d cd 
