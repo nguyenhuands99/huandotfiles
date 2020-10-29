@@ -4,7 +4,8 @@
 # but not theses beautiful files
 !.vimrc
 !.bashrc
-!.bash_alias
+!.bash_aliases
 !.bash_profile
 !.gitignore
 !.config/starship.toml
+!.git-prompt.sh
